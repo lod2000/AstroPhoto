@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#000000"
+    tools:context=".ListActivity">
+
+    <ViewFlipper
+        android:id="@+id/viewFlipper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/mainLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            tools:context="com.spacenerd.astrophoto.MainActivity"
+            android:background="#000000">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/photoImageView"
+                android:minWidth="24dp"
+                android:minHeight="24dp"
+                android:layout_above="@+id/titleLabel"
+                android:layout_marginBottom="18dp"
+                android:layout_alignRight="@+id/dateLabel"
+                android:layout_alignEnd="@+id/dateLabel"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/dateLabel"
+                android:clickable="true"
+                android:longClickable="true"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/descriptionLabel"
+                android:textColor="#888888"
+                android:maxHeight="52dp"
+                android:textSize="18sp"
+                android:scrollIndicators="right"
+                android:layout_alignParentBottom="true"
+                android:ellipsize="end"
+                android:maxLines="3"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:clickable="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/titleLabel"
+                android:layout_above="@+id/descriptionLabel"
+                android:layout_centerHorizontal="true"
+                android:textSize="22sp"
+                android:textColor="#FFF"
+                android:textAlignment="center"
+                android:layout_marginBottom="18dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_toRightOf="@+id/backButton"
+                android:layout_toLeftOf="@+id/forwardButton"
+                android:gravity="center_vertical|center_horizontal"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/dateLabel"
+                android:layout_centerHorizontal="true"
+                android:textColor="#888"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentLeft="true"
+                android:gravity="center_horizontal|bottom"
+                android:layout_alignParentTop="true"
+                android:textIsSelectable="false"
+                android:textSize="18sp"
+                android:layout_marginBottom="18dp"/>
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/backButton"
+                android:layout_alignBottom="@+id/titleLabel"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignTop="@+id/titleLabel"
+                android:minWidth="20dp"
+                android:background="#00000000"/>
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/forwardButton"
+                android:layout_alignBottom="@+id/titleLabel"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@+id/titleLabel"
+                android:minWidth="20dp"
+                android:background="#00000000"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/linkView"
+                android:textColor="#FFFFFF"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:layout_alignBottom="@+id/photoImageView"
+                android:layout_alignTop="@+id/photoImageView"
+                android:textSize="18sp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/bookmarkStarEmpty"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:clickable="true"
+                android:layout_alignTop="@+id/dateLabel"
+                android:background="#00000000"
+                android:minHeight="22dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/bookmarkStarFilled"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:clickable="true"
+                android:layout_alignTop="@+id/dateLabel"
+                android:background="#00000000"
+                android:minHeight="22dp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/fullImageLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#000000"
+            android:padding="0dp">
+
+            <ImageView
+                android:id="@+id/fullImageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="24dp"
+                android:minWidth="24dp"
+                android:layout_gravity="center"
+                android:layout_centerInParent="true"
+                android:clickable="true"
+                android:longClickable="false"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_margin="0dp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/fullDescriptionLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:background="#000000">
+
+            <TextView
+                android:id="@+id/fullDescription"
+                android:text="Full description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#888888"
+                android:clickable="true"
+                android:textSize="18sp"
+                android:scrollIndicators="right"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/bookmarksLayout"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:background="#000000"
+            android:clickable="true">
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/listView"
+                android:smoothScrollbar="true"
+                android:clickable="true"/>
+        </RelativeLayout>
+
+    </ViewFlipper>
+
+</LinearLayout>

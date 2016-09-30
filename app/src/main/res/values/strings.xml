@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AstroPhoto</string>
+    <string name="bookmarks_file_key">ApodBookmarks</string>
+    <string name="settings_file_key">ApodSettings</string>
+    <string name="network_unavailable_message">Oh no! You are not connected to the Internet!</string>
+    <string name="ok_response">OK</string>
+    <string name="api_key">sDDcrz7DCnIApFDuEWdmj6CR3SCzsj1UPD0gx2e8</string>
+</resources>
