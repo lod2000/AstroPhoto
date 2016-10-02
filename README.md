@@ -7,3 +7,14 @@ photographs themselves. AstroPhoto app attempts to remedy this situation, by usi
 format.
 
 **Note: for now I am only using the free API, which has a limit of 1,000 requests per day.**
+
+## Planned Features and Improvements
+
+* Fix issue saving photos to gallery
+* Pull down to refresh
+* Show image thumbnails in bookmarks list
+* Add settings
+* Landscape photo viewing
+* More readable text
+* Better "network unavailable" message
+* Widgets
