@@ -2,88 +2,112 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\Liam\Documents\School\2015-2016 11th Grade\Java\AstroPhoto\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="557dda688c1817ba7c4dd9f55a9890d70e54cac3">
-        <dex dex="C:\Users\Liam\Documents\School\2015-2016 11th Grade\Java\AstroPhoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_c73e0af57b6542c965e4f79747b70a7b877a9428\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\Liam\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\7.0.1\d5d13ea991eab0252e3710e5df3d6a9d4b21d461\butterknife-7.0.1.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
-        <dex dex="C:\Users\Liam\Documents\School\2015-2016 11th Grade\Java\AstroPhoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\butterknife-7.0.1_8f85549e3a92901ce7cf6007b16296da8548043e\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\Liam\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.3.0\support-annotations-23.3.0.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
-        <dex dex="C:\Users\Liam\Documents\School\2015-2016 11th Grade\Java\AstroPhoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.3.0_63cc0b895134f5dc856cfc3743449ae6d1c9b39b\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\Liam\Documents\School\2015-2016 11th Grade\Java\AstroPhoto\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
-        <dex dex="C:\Users\Liam\Documents\School\2015-2016 11th Grade\Java\AstroPhoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.1.1_5dd38a28d1cc406329fae87999a5abee7d0a1677\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\Liam\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.6.0\98476622f10715998eacf9240d6b479f12c66143\okio-1.6.0.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="98476622f10715998eacf9240d6b479f12c66143">
-        <dex dex="C:\Users\Liam\Documents\School\2015-2016 11th Grade\Java\AstroPhoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.6.0_763c6704aa1c79bbff522b005cd8f217a6c7fd01\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\Liam\.gradle\caches\modules-2\files-2.1\com.github.ahorn\android-rss\v1.0-rc1\6a3f16bcc02bfb9aed8c8a795900be3f66d81c26\android-rss-v1.0-rc1.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="6a3f16bcc02bfb9aed8c8a795900be3f66d81c26">
-        <dex dex="C:\Users\Liam\Documents\School\2015-2016 11th Grade\Java\AstroPhoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\android-rss-v1.0-rc1_3fa16dc7b7f365f2a274fc539d0e886f88022cde\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\Liam\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.1.2\7052283359001bb108753cb0583a887d3bf94c82\okhttp-3.1.2.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="7052283359001bb108753cb0583a887d3bf94c82">
-        <dex dex="C:\Users\Liam\Documents\School\2015-2016 11th Grade\Java\AstroPhoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.1.2_8e398281556b303f51d6b8052355b9ba6ab39797\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\Liam\Documents\School\2015-2016 11th Grade\Java\AstroPhoto\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\libs\internal_impl-23.3.0.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
-        <dex dex="C:\Users\Liam\Documents\School\2015-2016 11th Grade\Java\AstroPhoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.3.0_9f96982354eb50e54d665eecb9307d289c91c7a7\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\Liam\Documents\School\2015-2016 11th Grade\Java\AstroPhoto\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="d50a85ebaa46364a5bbd44d9dded7e0fa6e95b04">
-        <dex dex="C:\Users\Liam\Documents\School\2015-2016 11th Grade\Java\AstroPhoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_33aba4e55f167cfb2d904beb669879df5b5eb083\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\Liam\Documents\School\2015-2016 11th Grade\Java\AstroPhoto\app\build\intermediates\exploded-aar\com.github.chrisbanes\PhotoView\1.2.6\jars\classes.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="e39dd45427d2ba136c82ed1946f80dd3dff16695">
-        <dex dex="C:\Users\Liam\Documents\School\2015-2016 11th Grade\Java\AstroPhoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.github.chrisbanes-PhotoView-1.2.6_fc47f3dfd979e5fcab0c1e381109935fb2fc7669\classes.dex" />
-    </item>
-    <item
+        is-multidex="true"
         jar="C:\Users\Liam\Documents\School\2015-2016 11th Grade\Java\AstroPhoto\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\classes.jar"
         jumboMode="true"
+        optimize="true"
         revision="23.0.2"
         sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
         <dex dex="C:\Users\Liam\Documents\School\2015-2016 11th Grade\Java\AstroPhoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.3.0_fa5676202a6bd712f579f8d40f4db41a9d4aff8b\classes.dex" />
     </item>
     <item
+        is-multidex="true"
+        jar="C:\Users\Liam\Documents\School\2015-2016 11th Grade\Java\AstroPhoto\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\libs\internal_impl-23.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
+        <dex dex="C:\Users\Liam\Documents\School\2015-2016 11th Grade\Java\AstroPhoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.3.0_9f96982354eb50e54d665eecb9307d289c91c7a7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\Liam\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
         jumboMode="true"
+        optimize="true"
         revision="23.0.2"
         sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
         <dex dex="C:\Users\Liam\Documents\School\2015-2016 11th Grade\Java\AstroPhoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\picasso-2.5.2_2205e08cc8c3cf00d67fddacd1c4e0aa5002f053\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Liam\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.6.0\98476622f10715998eacf9240d6b479f12c66143\okio-1.6.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="C:\Users\Liam\Documents\School\2015-2016 11th Grade\Java\AstroPhoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.6.0_763c6704aa1c79bbff522b005cd8f217a6c7fd01\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Liam\Documents\School\2015-2016 11th Grade\Java\AstroPhoto\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="C:\Users\Liam\Documents\School\2015-2016 11th Grade\Java\AstroPhoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.1.1_5dd38a28d1cc406329fae87999a5abee7d0a1677\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Liam\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\7.0.1\d5d13ea991eab0252e3710e5df3d6a9d4b21d461\butterknife-7.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="C:\Users\Liam\Documents\School\2015-2016 11th Grade\Java\AstroPhoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\butterknife-7.0.1_8f85549e3a92901ce7cf6007b16296da8548043e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Liam\Documents\School\2015-2016 11th Grade\Java\AstroPhoto\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="985e758ed29cf6109c0a772f68776c0fefd54c45">
+        <dex dex="C:\Users\Liam\Documents\School\2015-2016 11th Grade\Java\AstroPhoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_33aba4e55f167cfb2d904beb669879df5b5eb083\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Liam\Documents\School\2015-2016 11th Grade\Java\AstroPhoto\app\build\intermediates\exploded-aar\com.github.chrisbanes\PhotoView\1.2.6\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="e39dd45427d2ba136c82ed1946f80dd3dff16695">
+        <dex dex="C:\Users\Liam\Documents\School\2015-2016 11th Grade\Java\AstroPhoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.github.chrisbanes-PhotoView-1.2.6_fc47f3dfd979e5fcab0c1e381109935fb2fc7669\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Liam\.gradle\caches\modules-2\files-2.1\com.github.ahorn\android-rss\v1.0-rc1\6a3f16bcc02bfb9aed8c8a795900be3f66d81c26\android-rss-v1.0-rc1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="6a3f16bcc02bfb9aed8c8a795900be3f66d81c26">
+        <dex dex="C:\Users\Liam\Documents\School\2015-2016 11th Grade\Java\AstroPhoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\android-rss-v1.0-rc1_3fa16dc7b7f365f2a274fc539d0e886f88022cde\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Liam\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.1.2\7052283359001bb108753cb0583a887d3bf94c82\okhttp-3.1.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="7052283359001bb108753cb0583a887d3bf94c82">
+        <dex dex="C:\Users\Liam\Documents\School\2015-2016 11th Grade\Java\AstroPhoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.1.2_8e398281556b303f51d6b8052355b9ba6ab39797\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Liam\Documents\School\2015-2016 11th Grade\Java\AstroPhoto\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="b520fe73cffcdf0584cb242316435dc14e567f6e">
+        <dex dex="C:\Users\Liam\Documents\School\2015-2016 11th Grade\Java\AstroPhoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_c73e0af57b6542c965e4f79747b70a7b877a9428\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Liam\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.3.0\support-annotations-23.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
+        <dex dex="C:\Users\Liam\Documents\School\2015-2016 11th Grade\Java\AstroPhoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.3.0_63cc0b895134f5dc856cfc3743449ae6d1c9b39b\classes.dex" />
     </item>
 
 </items>

@@ -11,8 +11,11 @@ import android.graphics.Bitmap;
 import android.graphics.drawable.Drawable;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
+import android.net.Uri;
+import android.os.Environment;
 import android.provider.MediaStore;
 import android.support.v4.content.ContextCompat;
+import android.support.v4.content.FileProvider;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.Html;
@@ -27,6 +30,7 @@ import com.squareup.picasso.Picasso;
 
 import org.json.*;
 
+import java.io.File;
 import java.io.IOException;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -82,6 +86,8 @@ public class MainActivity extends AppCompatActivity {
 
     Context context;
 //    ImageView mThumbnailView;
+
+    String mCurrentPhotoPath;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -566,7 +572,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void saveToGallery(){
-        mPhotoImageView.setDrawingCacheEnabled(true);
+        /*mPhotoImageView.setDrawingCacheEnabled(true);
         Bitmap bitmap = mPhotoImageView.getDrawingCache();
         //MediaStore.Images.Media.insertImage(getContentResolver(), yourBitmap, yourTitle , yourDescription);
 //        int permissionCheck = ContextCompat.checkSelfPermission(context, Manifest.permission.WRITE_EXTERNAL_STORAGE);
@@ -575,6 +581,48 @@ public class MainActivity extends AppCompatActivity {
 //        }
         MediaStore.Images.Media.insertImage(getContentResolver(), bitmap, mPhotoInfo.getTitle(), mPhotoInfo.getExplanation());
         Log.v(TAG, "Image saved to gallery");
-        Toast.makeText(context, "Image saved to gallery", Toast.LENGTH_SHORT).show();
+        Toast.makeText(context, "Image saved to gallery", Toast.LENGTH_SHORT).show();*/
+        Log.d(TAG, "Saving images is WIP");
+        Toast.makeText(this, "Sorry, can't save pictures right now", Toast.LENGTH_SHORT).show();
+    }
+
+    private File createImageFile() throws IOException { //WIP
+        // Create an image file name
+        String timeStamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
+        //String imageFileName = "JPEG_" + timeStamp + "_";
+        String imageFileName = "JPEG_" + mPhotoInfo.getImageDate() + "_" + timeStamp;
+        File storageDir = getExternalFilesDir(Environment.DIRECTORY_PICTURES);
+        File image = File.createTempFile(
+                imageFileName,  /* prefix */
+                ".jpg",         /* suffix */
+                storageDir      /* directory */
+        );
+
+        // Save a file: path for use with ACTION_VIEW intents
+        mCurrentPhotoPath = "file:" + image.getAbsolutePath();
+        return image;
+    }
+
+    private void saveToGalleryWIP() { //WIP
+        // Create the File where the photo should go
+        File photoFile = null;
+        try {
+            photoFile = createImageFile();
+        } catch (IOException ex) {
+            // Error occurred while creating the File
+            Log.e(TAG, "Error attempting to create image File");
+            Toast.makeText(this, "Could not save image", Toast.LENGTH_SHORT).show();
+        }
+        // Continue only if the File was successfully created
+        if (photoFile != null) {
+            //Add image to gallery
+            Intent mediaScanIntent = new Intent(Intent.ACTION_MEDIA_SCANNER_SCAN_FILE);
+            File f = new File(mCurrentPhotoPath);
+            Uri contentUri = Uri.fromFile(f);
+            mediaScanIntent.setData(contentUri);
+            this.sendBroadcast(mediaScanIntent);
+            Toast.makeText(this, "Image saved to Gallery", Toast.LENGTH_SHORT).show();
+        }
+
     }
 }
